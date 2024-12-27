@@ -9,9 +9,10 @@ This project integrates advanced AI and embedded systems to achieve real-time tr
 
 │   ├── PWM signal configuration via Timer 1 and Timer 8 (4 channels in total)
 
-│
 ├── main.py              # Main Python script for detection and sending commands
+
 ├── model.pt             # Trained YOLOv8 model for sign detection
+
 ├── README.md            # Project documentation
 
 Component Details
