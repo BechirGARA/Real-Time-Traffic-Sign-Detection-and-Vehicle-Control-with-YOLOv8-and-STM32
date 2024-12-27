@@ -2,9 +2,13 @@
 This project integrates advanced AI and embedded systems to achieve real-time traffic sign detection and vehicle control. It employs a YOLOv8 model for detecting traffic signs (e.g., stop panels, red signals, and green signals) and utilizes an STM32 microcontroller for vehicle control through serial communication.
 
 ├── .idea/               # IDE configuration files
+
 ├── AI project/          # Folder containing STM32 code
+
 │   ├── USB port configuration for serial communication
+
 │   ├── PWM signal configuration via Timer 1 and Timer 8 (4 channels in total)
+
 │
 ├── main.py              # Main Python script for detection and sending commands
 ├── model.pt             # Trained YOLOv8 model for sign detection
