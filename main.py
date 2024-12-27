@@ -3,10 +3,10 @@ from ultralytics import YOLO
 import serial
 
 # Configuration du port série
-ser = serial.Serial('/dev/ttyACM0', 9600)  # Assurez-vous que le port est correct
+ser = serial.Serial('/dev/ttyACM0', 9600)  # port select exp: ACM0 or ACM1 or tty12 ...
 
 # Chargement du modèle YOLOv8
-model = YOLO('/home/gara/Desktop/stage ACTIA/yolov8/v8e50.pt')  # Chemin vers votre modèle YOLOv8
+model = YOLO('path_your_model_location')  # Chemin vers votre modèle YOLOv8
 
 # Initialisation de la capture vidéo
 cap = cv2.VideoCapture(0)  # Webcam par défaut
